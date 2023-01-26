@@ -62,11 +62,11 @@
     line-height: 2.1vh;
 }
 
-.botoes__item{
+.botoes__item {
     margin: 0 0.5em;
 }
 
-.botoes__ancora{
+.botoes__ancora {
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);
@@ -76,4 +76,29 @@
 
 .imagem__titulo {
     margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block !important;
+        top: 60% !important;
+    }
+
+    .card{
+        width: 40%;
+        margin: 2em auto;
+    }
 }
